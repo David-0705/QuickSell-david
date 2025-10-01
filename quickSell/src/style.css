@@ -132,19 +132,27 @@ html,
     min-height: 56px;
     background: #fff;
     border-radius: 8px;
-    margin-bottom: 4px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e6e8eb;
 }
 
 .th,
 .td {
     padding: 14px 18px;
-    border-bottom: 1px solid #f1f1f1;
     min-width: 100px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     font-size: 1rem;
     background: transparent;
+}
+
+.th.lastmsg-col, .td.lastmsg-col, .th.addedby-col, .td.addedby-col {
+    justify-content: flex-end;
+    text-align: right;
+}
+.th.customer-col, .td.customer, .th.score-col, .td.score, .th.email-col, .td.email {
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .th {
