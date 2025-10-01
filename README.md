@@ -42,17 +42,10 @@ quickSell/
 	npm run dev
 	```
 3. **Open in browser:**
-	Visit `http://localhost:5173` (or the port shown in your terminal).
 
-## Customization
-- **Logo:** Replace `src/assets/Utlis/Doubletick.png` with your own logo.
-- **Table columns:** Edit `src/components/TableHeader.jsx` and `src/components/TableRow.jsx`.
-- **Filters:** Customize filter logic in `src/components/SearchAndFilterRow.jsx`.
 
 ## Technologies Used
 - React
 - Vite
 - CSS Modules
 
-## License
-MIT
