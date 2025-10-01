@@ -1,4 +1,5 @@
 import React from 'react';
+import './SearchAndFilterRow.css';
 import SearchIcon from '../assets/Utlis/test_Search-3.svg';
 import FilterIcon from '../assets/Utlis/test_Filter.svg';
 

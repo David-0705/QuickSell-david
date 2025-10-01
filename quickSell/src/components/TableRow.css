@@ -1,0 +1,62 @@
+.tr {
+    display: grid;
+    grid-template-columns: 48px 1.5fr 0.8fr 2fr 2fr 1.2fr;
+    align-items: center;
+    padding: 0;
+    min-height: 56px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e6e8eb;
+}
+.td {
+    padding: 14px 18px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background: transparent;
+}
+.td.checkbox {
+    width: 48px;
+    justify-content: center;
+}
+.td.customer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 240px;
+    height: 100%;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0;
+    object-fit: cover;
+    display: block;
+    border: 2px solid #f1f1f1;
+}
+.meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+.meta .name {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #222;
+}
+.meta .phone {
+    font-size: 0.92rem;
+    color: #7d7d7d;
+}
+.td.lastmsg-col, .td.addedby-col {
+    justify-content: flex-end;
+    text-align: right;
+}
+.td.customer, .td.score, .td.email {
+    justify-content: flex-start;
+    text-align: left;
+}

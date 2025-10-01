@@ -1,0 +1,22 @@
+.thead {
+    border-bottom: 1px solid var(--border);
+}
+.thead .tr {
+    background: #fff;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #6b7280;
+    border-bottom: 1px solid var(--border);
+    min-height: 56px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.th {
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+}
+.th.checkbox {
+    width: 48px;
+    justify-content: center;
+}

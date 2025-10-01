@@ -1,4 +1,5 @@
 import React from "react";
+import './TableRow.css';
 
 export default function TableRow({ row }) {
   return (

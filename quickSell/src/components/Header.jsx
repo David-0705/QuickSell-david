@@ -1,5 +1,6 @@
 import React from 'react';
 import DoubleTick from '../assets/Utlis/Doubletick.png';
+import './Header.css';
 
 export default function Header() {
   return (

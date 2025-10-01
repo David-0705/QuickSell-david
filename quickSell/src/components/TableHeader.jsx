@@ -1,4 +1,5 @@
 import React from "react";
+import './TableHeader.css';
 import HeaderCell from "./HeaderCell";
 
 export default function TableHeader({ sortState = { key: '', dir: 'asc' }, onSort = () => {} }) {

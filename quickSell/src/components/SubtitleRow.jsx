@@ -1,4 +1,5 @@
 import React from 'react';
+import './SubtitleRow.css';
 
 export default function SubtitleRow({ total }) {
   return (
