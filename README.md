@@ -18,6 +18,14 @@ quickSell/
   src/
 	 assets/
 	 components/
+	 	FiltersDropdown.jsx
+		Header.jsx
+		HeaderCell.jsx
+		SearchAndFilterRow.jsx
+		SerachBar.jsx
+		SubtitleRow.jsx
+		TableHeader.jsx
+		TableRow.jsx
 	 App.jsx
 	 style.css
   package.json
